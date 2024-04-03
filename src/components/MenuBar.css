@@ -1,0 +1,33 @@
+.menu-bar {
+    background-color: #576577;
+    padding: 10px 20px;
+
+  }
+  
+  .menu-bar__list {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu-bar__item {
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .menu-bar__item:last-child {
+    margin-right: 0;
+  }
+  
+  .menu-bar__item:hover {
+    color: #ff9900;
+  }
+.menu-bar__link {
+  color: #000; 
+  text-decoration: none; 
+}
+.menu-bar__link:hover {
+  color: #ff9900;
+}

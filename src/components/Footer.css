@@ -1,0 +1,45 @@
+.footer {
+  background-color: #232f3e;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.footer__column {
+  flex: 1;
+}
+
+.footer__column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer__column ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.footer__column li:hover {
+  color: #ff9900; /* Change color on hover */
+}
+.footer__column ul li {
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.footer__column:not(:last-child) ul {
+  margin-right: 20px; /* Adjust spacing between columns */
+}
+
+.footer__column:first-child ul {
+  margin-left: 20px; /* Add left margin to the first column */
+}
+
+.footer::after {
+  content: '';
+  display: block;
+  clear: both;
+}
