@@ -1,0 +1,149 @@
+.container {
+    padding: 20px;
+    overflow-x: hidden; /* Hide the horizontal scrollbar */
+  }
+  .header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .miniTVShows {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scrollbar-width: thin; /* Specify the width of the scrollbar */
+  }
+  .miniTVShow {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .miniTVImage {
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+  }
+  
+  .miniTVTitle {
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .selectedItem {
+    margin-top: 20px;
+  }
+  
+  .selectedItemImage {
+    width: 100%; /* Make the image full width */
+    height: 250px; /* Set the height to 250px */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Apply border radius if needed */
+    margin-bottom: 10px; /* Add margin if needed */
+}
+
+  
+  .selectedItemTitle {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .miniTVShows::-webkit-scrollbar-track {
+    background-color: transparent; /* Make the scrollbar track transparent */
+  }
+  
+  /* Customize the appearance of the scrollbar thumb */
+  .miniTVShows::-webkit-scrollbar-thumb {
+    background-color: #888; /* Change the color of the scrollbar thumb */
+    border-radius: 10px; /* Adjust the border-radius of the scrollbar thumb */
+  }
+  
+  /* Customize the appearance of the scrollbar buttons */
+  .miniTVShows::-webkit-scrollbar-button {
+    display: none; /* Hide the scrollbar buttons */
+  }
+  /* main-container styles */
+.main-container {
+    padding: 20px;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
+  
+  /* main-header styles */
+  .main-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* miniTVShows-container styles */
+  .miniTVShows-container {
+    display: flex;
+    overflow-x: auto; /* Enable horizontal scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling */
+    margin-bottom: 20px;
+  }
+  
+  /* miniTVShow-item styles */
+  .miniTVShow-item {
+    cursor: pointer;
+    margin-right: 20px;
+    flex-shrink: 0; /* Prevent items from shrinking */
+  }
+  
+  .selected-item {
+    border: 2px solid blue; /* Border for selected item */
+  }
+  
+  /* miniTVImage styles */
+  .miniTVImage {
+    width: 150px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  /* miniTVTitle styles */
+  .miniTVTitle {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  /* navigation styles */
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .navigation button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* selectedItem-container styles */
+  .selectedItem-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* selectedItemImage styles */
+ .selectedItemImage {
+    width: 100%; /* Make the image full width */
+    height: 250px; /* Set the height to 250px */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 10px; /* Apply border radius if needed */
+    margin-bottom: 10px; /* Add margin if needed */
+}
+
+  
+  /* selectedItemTitle styles */
+  .selectedItemTitle {
+    font-size: 18px;
+  }
+  

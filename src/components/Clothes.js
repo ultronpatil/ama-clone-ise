@@ -24,29 +24,19 @@ const Clothes = () => {
 
         return [...filledStars, ...emptyStars];
     };
-    // const couponsData = [
-    //     { id: 1, name: "50% Off", provider: "Coupon Provider A", image: "https://img.freepik.com/free-vector/seasonal-sale-discounts-presents-purchase-visiting-boutiques-luxury-shopping-price-reduction-promotional-coupons-special-holiday-offers-vector-isolated-concept-metaphor-illustration_335657-2766.jpg?w=740" },
-    //     { id: 2, name: "Free Shipping", provider: "Coupon Provider B", image: "https://img.freepik.com/free-photo/purple-open-gift-box-with-voucher-bonus-surprise-minimal-present-greeting-celebration-promotion-discount-sale-reward-icon-3d-illustration_56104-2100.jpg?w=826" },
-    //     { id: 3, name: "BOGO", provider: "Coupon Provider C", image: "https://img.freepik.com/free-vector/biggest-sale-modern-banner-design_1017-17478.jpg?w=826" },
-    //     { id: 4, name: "10% Off", provider: "Coupon Provider D", image: "https://img.freepik.com/premium-vector/food-gift-voucher-discount-design-template_57516-1341.jpg?w=740" },
-    //     { id: 5, name: "20% Off", provider: "Coupon Provider E", image: "https://img.freepik.com/free-vector/creative-coupon-voucher-template-concept_23-2147938596.jpg?w=740" },
-    //     { id: 6, name: "Special Offer", provider: "Coupon Provider F", image: "https://img.freepik.com/premium-vector/voucher-card-cash-back-template-design-with-coupon-code-promotion-price-offers-sale_684471-10.jpg?w=740" },
-    //     { id: 7, name: "Discount", provider: "Coupon Provider G", image: "https://img.freepik.com/premium-vector/christmas-gift-vouchers_1302-13981.jpg?w=740" },
-    //     { id: 8, name: "Cashback", provider: "Coupon Provider H", image: "https://img.freepik.com/premium-vector/colorful-coupon-template-with-flat-design_23-2147960470.jpg?w=740" },
-    //     { id: 9, name: "Buy One Get One", provider: "Coupon Provider I", image: "https://img.freepik.com/premium-vector/creative-gift-vouch-template-sales_23-2147950027.jpg?w=740" },
-    //     { id: 10, name: "Limited Time Offer", provider: "Coupon Provider J", image: "https://img.freepik.com/free-vector/flat-cartoon-character-customer-50-percent-discount-with-coupon_1150-34875.jpg?w=740" },
-    //     { id: 11, name: "50% Off", provider: "Coupon Provider A", image: "https://img.freepik.com/free-vector/seasonal-sale-discounts-presents-purchase-visiting-boutiques-luxury-shopping-price-reduction-promotional-coupons-special-holiday-offers-vector-isolated-concept-metaphor-illustration_335657-2766.jpg?w=740" },
-    //     { id: 12, name: "Free Shipping", provider: "Coupon Provider B", image: "https://img.freepik.com/free-photo/purple-open-gift-box-with-voucher-bonus-surprise-minimal-present-greeting-celebration-promotion-discount-sale-reward-icon-3d-illustration_56104-2100.jpg?w=826" },
-    //     { id: 13, name: "BOGO", provider: "Coupon Provider C", image: "https://img.freepik.com/free-vector/biggest-sale-modern-banner-design_1017-17478.jpg?w=826" },
-    //     { id: 14, name: "10% Off", provider: "Coupon Provider D", image: "https://img.freepik.com/premium-vector/food-gift-voucher-discount-design-template_57516-1341.jpg?w=740" },
-    //     { id: 15, name: "20% Off", provider: "Coupon Provider E", image: "https://img.freepik.com/free-vector/creative-coupon-voucher-template-concept_23-2147938596.jpg?w=740" },
-    //     { id: 16, name: "Special Offer", provider: "Coupon Provider F", image: "https://img.freepik.com/premium-vector/voucher-card-cash-back-template-design-with-coupon-code-promotion-price-offers-sale_684471-10.jpg?w=740" },
-    //     { id: 17, name: "Discount", provider: "Coupon Provider G", image: "https://img.freepik.com/premium-vector/christmas-gift-vouchers_1302-13981.jpg?w=740" },
-    //     { id: 18, name: "Cashback", provider: "Coupon Provider H", image: "https://img.freepik.com/premium-vector/colorful-coupon-template-with-flat-design_23-2147960470.jpg?w=740" },
-    //     { id: 19, name: "Buy One Get One", provider: "Coupon Provider I", image: "https://img.freepik.com/premium-vector/creative-gift-vouch-template-sales_23-2147950027.jpg?w=740" },
-    //     { id: 20, name: "Limited Time Offer", provider: "Coupon Provider J", image: "https://img.freepik.com/free-vector/flat-cartoon-character-customer-50-percent-discount-with-coupon_1150-34875.jpg?w=740" },
+    const couponsData = [
+        { id: 1, name: "50% Off", provider: "Coupon Provider A", image: "https://img.freepik.com/free-vector/seasonal-sale-discounts-presents-purchase-visiting-boutiques-luxury-shopping-price-reduction-promotional-coupons-special-holiday-offers-vector-isolated-concept-metaphor-illustration_335657-2766.jpg?w=740" },
+        { id: 2, name: "Free Shipping", provider: "Coupon Provider B", image: "https://img.freepik.com/free-photo/purple-open-gift-box-with-voucher-bonus-surprise-minimal-present-greeting-celebration-promotion-discount-sale-reward-icon-3d-illustration_56104-2100.jpg?w=826" },
+        { id: 3, name: "BOGO", provider: "Coupon Provider C", image: "https://img.freepik.com/free-vector/biggest-sale-modern-banner-design_1017-17478.jpg?w=826" },
+        { id: 4, name: "10% Off", provider: "Coupon Provider D", image: "https://img.freepik.com/premium-vector/food-gift-voucher-discount-design-template_57516-1341.jpg?w=740" },
+        { id: 5, name: "20% Off", provider: "Coupon Provider E", image: "https://img.freepik.com/free-vector/creative-coupon-voucher-template-concept_23-2147938596.jpg?w=740" },
+        { id: 6, name: "Special Offer", provider: "Coupon Provider F", image: "https://img.freepik.com/premium-vector/voucher-card-cash-back-template-design-with-coupon-code-promotion-price-offers-sale_684471-10.jpg?w=740" },
+        { id: 7, name: "Discount", provider: "Coupon Provider G", image: "https://img.freepik.com/premium-vector/christmas-gift-vouchers_1302-13981.jpg?w=740" },
+        { id: 8, name: "Cashback", provider: "Coupon Provider H", image: "https://img.freepik.com/premium-vector/colorful-coupon-template-with-flat-design_23-2147960470.jpg?w=740" },
+        { id: 9, name: "Buy One Get One", provider: "Coupon Provider I", image: "https://img.freepik.com/premium-vector/creative-gift-vouch-template-sales_23-2147950027.jpg?w=740" },
+        { id: 10, name: "Limited Time Offer", provider: "Coupon Provider J", image: "https://img.freepik.com/free-vector/flat-cartoon-character-customer-50-percent-discount-with-coupon_1150-34875.jpg?w=740" },
 
-    // ];
+    ];
 
     // Dummy clothes data
     const clothesData = [
@@ -142,91 +132,9 @@ const Clothes = () => {
         <div>
             <Navbar />
             <MenuBar />
-            <div style={{ display: 'flex' }}>
-                <div className="sidebar">
-
-                    <div className="sidebar_content">
-                        <h3>New Arrivals</h3>
-                        <ul>
-                            <li>Last 30 days</li>
-                            <li>Last 60 days</li>
-                            <li>Last 90 days</li>
-                        </ul>
-                    </div>
-                    <div className="sidebar_content">
-                        <h3>Styles</h3>
-                        <ul>
-                            <li>Formal Wear</li>
-                            <li>Casual Wear</li>
-                            <li>Party Dresses</li>
-                            <li>Street Style</li>
-                            {/* Add more style options as needed */}
-                        </ul>
-                    </div>
-                    <div className="sidebar_content">
-                        <h3>Size</h3>
-                        <ul>
-                            <li>XS</li>
-                            <li>S</li>
-                            <li>M</li>
-                            <li>L</li>
-                            <li>XL</li>
-                            {/* Add more room type options as needed */}
-                        </ul>
-                    </div>
-                    <div className="sidebar_content">
-                        <h3>Brand</h3>
-                        <ul>
-                            <li><input type="checkbox" id="brandA" name="brandA" /><label htmlFor="brandA">Brand A</label></li>
-                            <li><input type="checkbox" id="brandB" name="brandB" /><label htmlFor="brandB">Brand B</label></li>
-                            <li><input type="checkbox" id="brandC" name="brandC" /><label htmlFor="brandC">Brand C</label></li>
-                            <li><input type="checkbox" id="brandD" name="brandD" /><label htmlFor="brandD">Brand D</label></li>
-                            <li><input type="checkbox" id="brandE" name="brandE" /><label htmlFor="brandE">Brand E</label></li>
-                            {/* Add more brand options as needed */}
-                        </ul>
-                    </div>
-                    <div className="sidebar_content">
-                        <h3>Rating</h3>
-                        <ul>
-                            <li>{renderStars(5)} 5 star</li>
-                            <li>{renderStars(4)} 4 star & up</li>
-                            <li>{renderStars(3)} 3 star & up</li>
-                            <li>{renderStars(2)} 2 star & up</li>
-                            <li>{renderStars(1)} 1 star & up</li>
-                        </ul>
-                    </div>
-                    <div className="sidebar_content">
-                        <h3>Condition</h3>
-                        <ul>
-                            <li>New</li>
-                            <li>Used</li>
-                        </ul>
-                    </div>
-                    <div className="sidebar_content">
-                        <h3>Price Range</h3>
-                        <ul>
-                            <li>Under ₹100</li>
-                            <li>₹100 - ₹200</li>
-                            <li>₹200 - ₹500</li>
-                            <li>₹500 - ₹1,000</li>
-                            <li>Over ₹1,000</li>
-                        </ul>
-                    </div>
-                    <div className="sidebar_content">
-                        <h3>Discount</h3>
-                        <ul>
-                            <li>10% Off or more</li>
-                            <li>25% Off or more</li>
-                            <li>35% Off or more</li>
-                            <li>50% Off or more</li>
-                            <li>60% Off or more</li>
-                        </ul>
-                    </div>
-                </div>
-
-
-                {/* <div className='coupon-wrapper'>
-                    <div className='electronics-coupons'>Random Coupons</div>
+            <div>
+                <div className='coupon-wrapper' style={{ flex: '1' }}>
+                    <div className='electronics-coupons' style={{ marginTop: "20px" }}>Get flat Discount on Clothes</div>
                     <div className='coupon-container'>
                         {couponsData.map((item) => (
                             <div key={item.id} className='coupon-card'>
@@ -234,7 +142,7 @@ const Clothes = () => {
                                     className='coupon-image'
                                     src={item.image}
                                     alt={item.name}
-                                />
+                                />``
                                 <div className='coupon-details'>
                                     <h4>{item.name}</h4>
                                     <p>{item.provider}</p>
@@ -243,28 +151,114 @@ const Clothes = () => {
                             </div>
                         ))}
                     </div>
-                </div> */}
+                </div>
+                <div style={{ display: 'flex' }}>
+
+
+                    <div className="sidebar">
+
+                        <div className="sidebar_content">
+                            <h3>New Arrivals</h3>
+                            <ul>
+                                <li>Last 30 days</li>
+                                <li>Last 60 days</li>
+                                <li>Last 90 days</li>
+                            </ul>
+                        </div>
+                        <div className="sidebar_content">
+                            <h3>Styles</h3>
+                            <ul>
+                                <li>Formal Wear</li>
+                                <li>Casual Wear</li>
+                                <li>Party Dresses</li>
+                                <li>Street Style</li>
+                                {/* Add more style options as needed */}
+                            </ul>
+                        </div>
+                        <div className="sidebar_content">
+                            <h3>Size</h3>
+                            <ul>
+                                <li>XS</li>
+                                <li>S</li>
+                                <li>M</li>
+                                <li>L</li>
+                                <li>XL</li>
+                                {/* Add more room type options as needed */}
+                            </ul>
+                        </div>
+                        <div className="sidebar_content">
+                            <h3>Brand</h3>
+                            <ul>
+                                <li><input type="checkbox" id="brandA" name="brandA" /><label htmlFor="brandA">Brand A</label></li>
+                                <li><input type="checkbox" id="brandB" name="brandB" /><label htmlFor="brandB">Brand B</label></li>
+                                <li><input type="checkbox" id="brandC" name="brandC" /><label htmlFor="brandC">Brand C</label></li>
+                                <li><input type="checkbox" id="brandD" name="brandD" /><label htmlFor="brandD">Brand D</label></li>
+                                <li><input type="checkbox" id="brandE" name="brandE" /><label htmlFor="brandE">Brand E</label></li>
+                                {/* Add more brand options as needed */}
+                            </ul>
+                        </div>
+                        <div className="sidebar_content">
+                            <h3>Rating</h3>
+                            <ul>
+                                <li>{renderStars(5)} 5 star</li>
+                                <li>{renderStars(4)} 4 star & up</li>
+                                <li>{renderStars(3)} 3 star & up</li>
+                                <li>{renderStars(2)} 2 star & up</li>
+                                <li>{renderStars(1)} 1 star & up</li>
+                            </ul>
+                        </div>
+                        <div className="sidebar_content">
+                            <h3>Condition</h3>
+                            <ul>
+                                <li>New</li>
+                                <li>Used</li>
+                            </ul>
+                        </div>
+                        <div className="sidebar_content">
+                            <h3>Price Range</h3>
+                            <ul>
+                                <li>Under ₹100</li>
+                                <li>₹100 - ₹200</li>
+                                <li>₹200 - ₹500</li>
+                                <li>₹500 - ₹1,000</li>
+                                <li>Over ₹1,000</li>
+                            </ul>
+                        </div>
+                        <div className="sidebar_content">
+                            <h3>Discount</h3>
+                            <ul>
+                                <li>10% Off or more</li>
+                                <li>25% Off or more</li>
+                                <li>35% Off or more</li>
+                                <li>50% Off or more</li>
+                                <li>60% Off or more</li>
+                            </ul>
+                        </div>
+                    </div>
 
 
 
-                <div className="clothes-container" style={{ flex: '1' }}>
-                    {clothesData.map(item => (
-                        <div key={item.id} className="clothes-card">
-                            <img src={item.imageUrl} alt={item.title} />
-                            <div className="clothes-details">
-                                <h4>{item.title}</h4>
-                                <p>{item.description}</p>
-                                <p>Price: ₹{Math.floor(Math.random() * 1000)}</p>
-                                <div className="rating">
-                                    {renderStars(Math.floor(Math.random() * 5) + 1)} {Math.floor(Math.random() * 1000)}
-                                </div>
-                                <div className="buttons">
-                                    <button className="amazon-button">Buy Now</button>
-                                    <button className="amazon-button">Add to Cart</button>
+
+
+                    <div className="clothes-container" style={{ flex: '1' }}>
+                        {clothesData.map(item => (
+                            <div key={item.id} className="clothes-card">
+                                <img src={item.imageUrl} alt={item.title} />
+                                <div className="clothes-details">
+                                    <h4>{item.title}</h4>
+                                    <p>{item.description}</p>
+                                    <p>Price: ₹{Math.floor(Math.random() * 1000)}</p>
+                                    <div className="rating">
+                                        {renderStars(Math.floor(Math.random() * 5) + 1)} {Math.floor(Math.random() * 1000)}
+                                    </div>
+                                    <div className="buttons">
+                                        <button className="amazon-button">Buy Now</button>
+                                        <button className="amazon-button">Add to Cart</button>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
             </div>
             <Footer />
