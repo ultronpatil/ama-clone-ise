@@ -215,7 +215,7 @@ const Books = () => {
                             <div className="book-details">
                                 <h4>{book.title}</h4>
                                 <p>By {book.author}</p>
-                                <p>Price: ₹{Math.floor(Math.random() * 1000)}</p> {/* Replace $10 with the actual price */}
+                                <p>Price: ₹{Math.floor(Math.random() * 1000)}</p>
                                 <div className="rating">
                                     {renderStars(Math.floor(Math.random() * 5) + 1)} {Math.floor(Math.random() * 1000)}
                                 </div>
