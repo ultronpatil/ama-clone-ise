@@ -1,9 +1,18 @@
 import React from 'react';
+import { useHistory } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch, faShoppingCart } from '@fortawesome/free-solid-svg-icons';
 import './Navbar.css';
 
 const Navbar = () => {
+
+    let history = useHistory();
+
+    const navigateToYourCart = () => {
+        history.push("/yourcart"); // Navigate to the '/yourcart' route
+    }
+
+
     return (
         <div className="navbar">
             <div className="navbar__logo">
@@ -34,7 +43,7 @@ const Navbar = () => {
                 />
             </div>
             <div className="navbar__cart">
-                <button className="navbar__cartButton">
+                <button className="navbar__cartButton" onClick={navigateToYourCart}>
                     <FontAwesomeIcon icon={faShoppingCart} className="navbar__cartIcon" /> Your Cart
                 </button>
             </div>

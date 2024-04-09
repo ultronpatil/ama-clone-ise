@@ -1,0 +1,111 @@
+.your-cart {
+    display: flex;
+    background-color: rgb(228, 228, 228);
+}
+
+.left-container {
+    background-color: rgb(228, 228, 228);
+    width: 75%;
+    height: auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.left-top {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: auto;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+.left-top-title {
+    font-size: 34px; /* Adjust font size as needed */
+    font-weight: thin; /* Make the title bold */
+    margin-bottom: 10px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+.left-top-sub {
+    font-size: 16px; /* Adjust font size as needed */
+    line-height: 1.5; /* Adjust line height for better readability */
+    color: #000000; 
+    margin-left: 20px;
+    
+}
+
+.left-bottom {
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.right-container {
+    background-color: rgb(255, 255, 255);
+    width: 25%;
+    height: auto;
+    border: 1.5px solid black;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-y: auto;
+}
+
+.recomendation {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.recom-container {
+    display: flex;
+    padding: 10px;
+}
+
+.recom-left {
+    background-color: #ffffff;
+    width: 150px;
+    height: 200px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+}
+
+.recom-left img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.recom-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 1px solid grey;
+}
+
+.recom-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.recom-star {
+    color: gold;
+    margin-bottom: 5px;
+}
+
+.recom-price {
+    color: green;
+}

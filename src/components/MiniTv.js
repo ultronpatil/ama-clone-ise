@@ -27,7 +27,22 @@ const MiniTv = () => {
             id: 1,
             title: "Boys",
             imageUrl: "https://img.freepik.com/premium-vector/cinema-festival-social-media-cover-template_23-2149939383.jpg?w=1380"
-        }
+        },
+        {
+            id: 1,
+            title: "The Marvelous ",
+            imageUrl: "https://imgs.search.brave.com/sW8MM4C3gknuTnxK7nLFAkbQm4hiyxrZLEdwKEOE4lQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zMy5h/bWF6b25hd3MuY29t/L2Nkbi5mcmVzaGRl/c2suY29tL2RhdGEv/aGVscGRlc2svYXR0/YWNobWVudHMvcHJv/ZHVjdGlvbi8xMDEw/Mjg2ODMyL29yaWdp/bmFsL1NlcnZhbnRI/ZWFydEJhbm5lci5w/bmc_MTQxNDUyMDU5/MA",
+        },
+        {
+            id: 2,
+            title: "Jack Ryan",
+            imageUrl: "https://imgs.search.brave.com/196buwIdyo1Ch9sHLi5Ro_asI4hD_kcQTn69G6S7AGQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFYMFpDYnhZU0wu/anBn",
+        },
+        {
+            id: 3,
+            title: "The Boys",
+            imageUrl: "https://imgs.search.brave.com/AmQ9OyAV-e9LwZ-6FP8HsZoksAdjH9_2Px_hKY7mIXc/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjE0ZnRUYUJXSUwu/anBn",
+        },
     ]
 
 
@@ -102,14 +117,14 @@ const MiniTv = () => {
 
             <div className="main-container">
                 <h1 className="main-header">Amazon Mini TV</h1>
-                <div className="miniTVShows-container">
+                {/* <div className="miniTVShows-container">
                     {BannerData.map((item, index) => (
                         <div key={item.id} className={`miniTVShow-item ${index === selectedItemIndex ? 'selected-item' : ''}`} onClick={() => handleSelectItem(item)}>
                             <img src={item.imageUrl} alt={item.title} className="miniTVImage" />
                             <p className="miniTVTitle">{item.title}</p>
                         </div>
                     ))}
-                </div>
+                </div> */}
                 <div className="navigation">
                     <button onClick={handlePrevious}>&lt; Previous</button>
                     <button onClick={handleNext}>Next &gt;</button>

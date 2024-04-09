@@ -125,21 +125,22 @@
     cursor: pointer;
   }
   
-  /* selectedItem-container styles */
   .selectedItem-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  
-  /* selectedItemImage styles */
- .selectedItemImage {
-    width: 100%; /* Make the image full width */
-    height: 250px; /* Set the height to 250px */
-    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    backdrop-filter: blur(10px); /* Apply blur effect to the background */
+    background-color: rgba(91, 75, 75, 0.5); /* Add semi-transparent background color */
+}
+  .selectedItemImage {
+    margin-top: 25px;
+    width: 100vw; /* Make the image full width of the viewport */
+    max-height: 250px; /* Set maximum height to 250px */
+    object-fit: contain; /* Maintain aspect ratio and contain within the container */
     border-radius: 10px; /* Apply border radius if needed */
     margin-bottom: 10px; /* Add margin if needed */
 }
+
 
   
   /* selectedItemTitle styles */

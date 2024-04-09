@@ -7,6 +7,7 @@ import Electronics from './components/Electronics';
 import HomeDecor from './components/HomeDecor';
 import Coupons from './components/Coupons';
 import MiniTv from './components/MiniTv';
+import YourCart from './components/YourCart';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route exact path='/electronics' component={Electronics} />
         <Route exact path='/homedecor' component={HomeDecor} />
         <Route exact path='/coupons' component={Coupons} />
+        <Route exact path='/yourcart' component={YourCart}></Route>
       </Switch>
 
     </div>
