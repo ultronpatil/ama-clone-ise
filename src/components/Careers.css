@@ -28,10 +28,10 @@ label {
     color: #555; /* Grey color for labels */
 }
 
-input[type="text"],
-input[type="email"],
+.Enter-your-name,
+.Enter-your-email,
 select,
-button[type="submit"] {
+.apply-here{
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc; /* Light grey border */
@@ -39,11 +39,11 @@ button[type="submit"] {
     font-size: 16px;
 }
 
-input[type="file"] {
+.your-file {
     padding: 10px;
 }
 
-button[type="submit"] {
+.apply-here {
     background-color: #ff9900; /* Orange color */
     color: white;
     font-weight: bold;
@@ -53,6 +53,40 @@ button[type="submit"] {
     transition: background-color 0.3s; /* Smooth transition on hover */
 }
 
-button[type="submit"]:hover {
+.apply-here:hover {
     background-color: #ff8c00; /* Darker shade of orange on hover */
+}
+/* Careers.css */
+
+.job-card {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-card h2 {
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.job-card p {
+    color: #666666;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.job-card a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.job-card a:hover {
+    text-decoration: underline;
 }
