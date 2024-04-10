@@ -1,0 +1,43 @@
+.about-us-container {
+    padding: 20px;
+}
+
+.about-us-content {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.news-container,
+.careers-container,
+.trending-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+}
+
+.news-container ul,
+.careers-container ul,
+.trending-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.news-container h2,
+.careers-container h2,
+.trending-container h2 {
+    margin-bottom: 10px;
+}
+
+.news-container a,
+.careers-container a,
+.trending-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.news-container a:hover,
+.careers-container a:hover,
+.trending-container a:hover {
+    text-decoration: underline;
+}

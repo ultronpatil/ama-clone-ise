@@ -1,7 +1,18 @@
 import React from 'react';
 import './Footer.css';
+import { useHistory } from 'react-router-dom';
 
 const Footer = () => {
+
+    const history = useHistory();
+    const handleAboutUsClick = () => {
+        history.push('/aboutus');
+    };
+    const handleCaeersClick = () => {
+        history.push('/careers');
+    };
+
+
     return (
         <footer className="footer">
             <div className="footer__column">
@@ -18,8 +29,8 @@ const Footer = () => {
             <div className="footer__column">
                 <h3>Get to Know Us</h3>
                 <ul>
-                    <li>About Us</li>
-                    <li>Careers</li>
+                    <li onClick={handleAboutUsClick}>About Us</li>
+                    <li onClick={handleCaeersClick}>Careers</li>
                     <li>Press Releases</li>
                     <li>Amazon Science</li>
                 </ul>
