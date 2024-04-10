@@ -40,12 +40,75 @@
 
 .left-bottom {
     background-color: rgb(255, 255, 255);
-    height: 50px;
+    height: auto;
     width: 100%;
     margin-top: 10px;
     border: 1px solid black;
     border-radius: 5px;
 }
+
+.left-bottom-top {
+    font-size: 20px; /* Adjust font size as needed */
+    font-weight: bold; /* Make the title bold */
+    padding: 10px; /* Add padding */
+    border-bottom: 1px solid black;
+}
+
+.left-bottom-card {
+    display: flex; /* Arrange items in a row */
+    margin-top: 10px;
+}
+
+.your-item-left,
+.your-item-mid,
+.your-item-right {
+    height: 100px; /* Set the height */
+}
+
+.your-item-left {
+    width: 20%; /* Set width */
+    background-color: red; /* Assign color */
+}
+
+.your-item-mid {
+    width: 60%; /* Set width */
+    background-color: blue; /* Assign color */
+}
+
+.your-item-right {
+    width: 20%; /* Set width */
+    background-color: green; /* Assign color */
+}
+/* YourCart.css */
+
+/* Other styles... */
+
+.left-bottom-card {
+    display: flex;
+    flex-direction: column; /* Display cards in a column */
+}
+
+.your-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Add margin between cards */
+}
+
+.your-item img {
+    width: 100px; /* Adjust image width as needed */
+    height: 100px; /* Adjust image height as needed */
+    margin-right: 10px; /* Add margin between image and text */
+}
+
+.item-name {
+    flex: 1; /* Expand to fill remaining space */
+    font-weight: bold;
+}
+
+.item-price {
+    font-style: italic;
+}
+
 
 .right-container {
     background-color: rgb(255, 255, 255);

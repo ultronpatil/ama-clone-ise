@@ -15,6 +15,13 @@ const YourCart = () => {
         { id: 2, name: "Free Shipping", provider: "Coupon Provider B", image: "https://img.freepik.com/free-photo/purple-open-gift-box-with-voucher-bonus-surprise-minimal-present-greeting-celebration-promotion-discount-sale-reward-icon-3d-illustration_56104-2100.jpg?w=826" },
 
     ]
+    const YourItemData = [
+        { id: 1, name: "50% Off", image: "https://img.freepik.com/free-vector/seasonal-sale-discounts-presents-purchase-visiting-boutiques-luxury-shopping-price-reduction-promotional-coupons-special-holiday-offers-vector-isolated-concept-metaphor-illustration_335657-2766.jpg?w=740" },
+        { id: 2, name: "Free Shipping", image: "https://img.freepik.com/free-photo/purple-open-gift-box-with-voucher-bonus-surprise-minimal-present-greeting-celebration-promotion-discount-sale-reward-icon-3d-illustration_56104-2100.jpg?w=826" },
+        { id: 1, name: "50% Off", image: "https://img.freepik.com/free-vector/seasonal-sale-discounts-presents-purchase-visiting-boutiques-luxury-shopping-price-reduction-promotional-coupons-special-holiday-offers-vector-isolated-concept-metaphor-illustration_335657-2766.jpg?w=740" },
+        { id: 2, name: "Free Shipping", image: "https://img.freepik.com/free-photo/purple-open-gift-box-with-voucher-bonus-surprise-minimal-present-greeting-celebration-promotion-discount-sale-reward-icon-3d-illustration_56104-2100.jpg?w=826" },
+
+    ]
     const getRandomStars = () => {
         const starsCount = Math.floor(Math.random() * 5) + 1; // Generates random number between 1 and 5
         return '★'.repeat(starsCount); // Repeat ★ based on starsCount
@@ -49,7 +56,15 @@ const YourCart = () => {
                     </div>
                     <div className='left-bottom'>
                         <div className='left-bottom-top'>Your Items</div>
-                        <div className='left-bottom-card'></div>
+                        <div className='left-bottom-card'>
+                            {YourItemData.map(item => (
+                                <div key={item.id} className='your-item'>
+                                    <img src={item.image} alt={item.name} />
+                                    <div className='item-name'>{item.name}</div>
+                                    <div className='item-price'>Price: ₹{Math.floor(Math.random() * 1000)}</div>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
 
