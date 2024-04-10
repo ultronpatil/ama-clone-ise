@@ -30,16 +30,16 @@ const HomeDecor = () => {
     const homeDecorProducts = [
         {
             id: 1,
-            title: 'Modern Wall Clock',
-            description: 'Stylish wall clock for your home decor.',
-            imageUrl: 'https://imgs.search.brave.com/qFLzS_w-YvTT1BThb2r84t0CI58PDe4y7S8wgX4J17M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFaMXZ3bk13Y0wu/anBn', // Replace with actual image URL
+            title: 'Vase',
+            description: 'Stylish Vase for your home decor.',
+            imageUrl: 'https://img.freepik.com/free-photo/close-up-arrangement-modern-vases_23-2149646533.jpg?t=st=1712754020~exp=1712757620~hmac=56496cf74c77a329278fbfa61f61e115bc8f731cbb43ef53d0fbd7742effadeb&w=360', // Replace with actual image URL
 
         },
         {
             id: 2,
-            title: 'Smart LED Light Bulb',
-            description: 'Energy-efficient smart LED light bulb with customizable colors and brightness.',
-            imageUrl: 'https://imgs.search.brave.com/-ECRKBgD79Y7IXoel_Zgt6KoK15g_YinxfOvxN9VoEE/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL3ZhZGVyLXBy/b2QuczMuYW1hem9u/YXdzLmNvbS8xNjgy/NTE3NjMwLW5hbm9s/ZWFmLWVzc2VudGlh/bHMtc21hcnQtbGVk/LWNvbG9yLWNoYW5n/aW5nLWxpZ2h0LWJ1/bGItNjQ0OTJlNzk4/ZThjZi5qcGc_Y3Jv/cD0xeHc6MXhoO2Nl/bnRlcix0b3AmcmVz/aXplPTk4MDoq', // Replace with actual image URL
+            title: 'Sofa',
+            description: '',
+            imageUrl: 'https://img.freepik.com/free-psd/sofa-isolated-transparent-background_191095-10351.jpg?t=st=1712754090~exp=1712757690~hmac=be22809f0cf59f35d592f75d300b605cc146ab834bfefd6f5ffc16093b32913f&w=740', // Replace with actual image URL
 
         },
         {
@@ -51,87 +51,76 @@ const HomeDecor = () => {
         },
         {
             id: 4,
-            title: 'Robot Vacuum Cleaner',
+            title: 'Chair',
             description: 'Automated robot vacuum cleaner for hassle-free cleaning.',
-            imageUrl: 'https://imgs.search.brave.com/OHfXKK9YVAIWQJt-52TQawzrE4AgLOtoVFBeNweigVY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9mb3J0/dW5lLmNvbS9pbWct/YXNzZXRzL3dwLWNv/bnRlbnQvdXBsb2Fk/cy8yMDIzLzAxL0dl/dHR5SW1hZ2VzLTEw/NDA4OTcxMzYtZTE2/NzQwNTMyMjU1ODku/anBnP3c9MTQ0MCZx/PTc1',
+            imageUrl: 'https://img.freepik.com/free-psd/slipper-chair-isolated-transparent-background_191095-13677.jpg?t=st=1712754127~exp=1712757727~hmac=4d50591dce9c2e12ba87b0ba68a80d8fbd5819176fe94c19d370e44d7ff58a55&w=740',
 
         },
         {
-            id: 5,
-            title: 'Smart Thermostat',
-            description: 'Programmable smart thermostat for efficient home heating and cooling control.',
-            imageUrl: 'https://imgs.search.brave.com/eGqjFTeKqClak87ESIDUCclJMUpOlz-Oj0-vvJ45G3M/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE1/NTMyNTA0MC9waG90/by91c2luZy1zbWFy/dC10aGVybW9zdGF0/LXRvLWNoYW5nZS10/ZW1wcmV0dXJlLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1v/QVNjd1JmSzlETW9m/SWhNWUJ1aWt2dTVG/NE9ROXEzdmxvZ05a/OUYxWG44PQ',
-
+            "id": 5,
+            "title": "Rustic Wall Clock",
+            "description": "Add a touch of rustic charm to your home decor with this stylish wall clock.",
+            "imageUrl": "https://img.freepik.com/free-photo/circular-clock-outdoors-still-life_23-2150436123.jpg?t=st=1712754372~exp=1712757972~hmac=e4385c4e3f542f415bded31b84aab8ad3f75a21e5a7d1399e465df70669e62ec&w=360"
         },
         {
-            id: 6,
-            title: 'Wireless Charging Pad',
-            description: 'Convenient wireless charging pad compatible with various devices.',
-            imageUrl: 'https://imgs.search.brave.com/r9OnU77ejXH-vprWe-qAQNmUYW0oHa--ejEewlSVedw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L1o4/U2FYQkZqTjJtRXNl/aXdaZ2dEMk0tMzIw/LTgwLmpwZw',
-
+            "id": 6,
+            "title": "Decorative Throw Pillows",
+            "description": "Elevate the coziness of your living space with these decorative throw pillows.",
+            "imageUrl": "https://img.freepik.com/free-photo/house-couch-sofa-comfort-home_1203-4826.jpg?w=996"
         },
         {
-            id: 7,
-            title: 'Smart Wi-Fi Plug',
-            description: 'Smart Wi-Fi plug for controlling home appliances remotely via smartphone.',
-            imageUrl: 'https://imgs.search.brave.com/iD7WvRXQZKgUyIDrRYflug1qBWzIILUbE3_JDBWPl4A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudHAtbGluay5j/b20vdXBsb2FkL2lt/YWdlLWxpbmUvVGFw/by1QMTI1TV8zcGtf/bm9ybWFsXzIwMjMw/MzE2MjM0MjMxby5q/cGc',
-
+            "id": 7,
+            "title": "Elegant Table Lamp",
+            "description": "Illuminate your space with sophistication using this elegant table lamp.",
+            "imageUrl": "https://img.freepik.com/premium-photo/modern-ceramic-table-lamp-dark-surface-background-with-empty-space-text_829699-3467.jpg?w=360"
         },
         {
-            id: 8,
-            title: 'Security Camera System',
-            description: 'Comprehensive security camera system for monitoring your home or office.',
-            imageUrl: 'https://imgs.search.brave.com/DlttdxYHLHt72D579Y2kT3esv3ud5wkxwyEWrwbCKco/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NzFoMEI3T0tnUUwu/anBn',
-
+            "id": 8,
+            "title": "Cozy Area Rug",
+            "description": "Infuse warmth and comfort into your home decor with this cozy area rug.",
+            "imageUrl": "https://img.freepik.com/free-photo/beautiful-luxury-pillow-sofa-decoration-living-room-interior-vintage-light-filter_74190-1688.jpg?t=st=1712754467~exp=1712758067~hmac=59c2d0cf04acd4599808b73fd0cee5bd8213a22add5db447b51d11a45d09a3c0&w=360"
         },
         {
-            id: 9,
-            title: 'Wireless Earbuds',
-            description: 'Compact wireless earbuds with high-quality audio for immersive listening experience.',
-            imageUrl: 'https://en.wikipedia.org/wiki/Bluetooth',
-
+            "id": 9,
+            "title": "Vintage Wall Art",
+            "description": "Add character to your walls with this vintage-inspired wall art piece.",
+            "imageUrl": "https://img.freepik.com/free-vector/hand-drawn-boho-cover-collection_23-2149068407.jpg?t=st=1712754486~exp=1712758086~hmac=d45489b4a7a15a13cca487a08115c05cf7c50aa7fb41d0e9ba43dbfaaa1aa49a&w=996"
         },
         {
-            id: 10,
-            title: 'Portable Power Bank',
-            description: 'Portable power bank for charging devices on the go.',
-            imageUrl: 'https://imgs.search.brave.com/hH6QrRgxKknbxAphcjhDnAoqn_Ncs-qpjZg2tKvZzJU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL3ZhZGVyLXBy/b2QuczMuYW1hem9u/YXdzLmNvbS8xNjg0/NDI3MzQ5LW1hc3Rl/ci1keW5hbWljLW13/MDgtMy0xNjE2NDM5/NjQyLmpwZz9jcm9w/PTF4dzoxeGg7Y2Vu/dGVyLHRvcCZyZXNp/emU9OTgwOio',
-
+            "id": 10,
+            "title": "Decorative Vases",
+            "description": "Enhance the aesthetic appeal of your home with these decorative vases.",
+            "imageUrl": "https://img.freepik.com/free-photo/cozy-decor-items-interior-beautiful-vases-bright-orange-background-standing-table_169016-15550.jpg?t=st=1712754508~exp=1712758108~hmac=a900a6025a4257fabeb8210e4ae0dac6b5ca0c4c970d055d0333c2fd3f20dc8f&w=1060"
         },
         {
-            id: 11,
-            title: 'Smart Doorbell',
-            description: 'Smart doorbell with video monitoring and motion detection features.',
-            imageUrl: 'https://imgs.search.brave.com/C2FUIvoZBh259I6SUuGGWrR7wsfNk6T8O5R1FpR1Fjw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9naC0x/MjEzMjAtc21hcnQt/ZG9vcmJlbGxzLTE2/MTA2NTIxNTkucG5n/P2Nyb3A9MC40OTh4/dzowLjc2NnhoOzAu/MzQweHcsMC4xMDh4/aCZyZXNpemU9NjQw/Oio',
-
+            "id": 11,
+            "title": "Chic Wall Mirror",
+            "description": "Make a statement in any room with this chic wall mirror.",
+            "imageUrl": "https://img.freepik.com/free-photo/modern-entryway-with-furniture-home-decor_23-2150831784.jpg?t=st=1712754532~exp=1712758132~hmac=cfd2dfacb827a864f604eb4a43b74f49e03b7b2aaa96bcac5633c3bb7fa9ea8e&w=360"
         },
         {
-            id: 12,
-            title: 'Wireless Gaming Mouse',
-            description: 'Ergonomic wireless gaming mouse with customizable buttons and RGB lighting.',
-            imageUrl: 'https://imgs.search.brave.com/Z9fk3apCr5NvwMUoKrlhzvHCXk4ysqYsMHDNTCeFRWg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/bW9zLmNtcy5mdXR1/cmVjZG4ubmV0L2s4/NW5tYzN0ekxpdWR1/aktHMndYY1ItMzIw/LTgwLmpwZw',
-
+            "id": 12,
+            "title": "Minimalist Wall Shelves",
+            "description": "Organize and display your belongings with these sleek minimalist wall shelves.",
+            "imageUrl": "https://img.freepik.com/free-photo/shoe-rack-indoors-still-life_23-2150695639.jpg?t=st=1712754551~exp=1712758151~hmac=bdac4edb92e887661134da801a018d8d242c4f934fc2d5fc4b21d7b84161802d&w=360"
         },
         {
-            id: 13,
-            title: 'Smart Scale',
-            description: 'Smart scale for tracking weight and body composition metrics.',
-            imageUrl: 'https://imgs.search.brave.com/4k16S1k0WYqr19aYI_Gr_Vr_ZbAgR-rlWImcQ6dsCCg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9wZW9w/bGUuY29tL3RobWIv/VVdqdWY2QTlmZEFS/TE5qS1JnM0F4Mm8y/NnhnPS9maXQtaW4v/MTUwMHgxMDAwL2Zp/bHRlcnM6bm9fdXBz/Y2FsZSgpOm1heF9i/eXRlcygxNTAwMDAp/OnN0cmlwX2ljYygp/L3p4Y3pkeDItYmRm/NjIwYzBjZGVhNGIz/NjllZGNmYmNiYjVj/NjI5ODkuanBn',
-
+            "id": 13,
+            "title": "Modern Plant Stand",
+            "description": "Bring the outdoors in with this modern plant stand, perfect for displaying your greenery.",
+            "imageUrl": "https://img.freepik.com/free-photo/indoor-plants-studio_23-2151022095.jpg?t=st=1712754577~exp=1712758177~hmac=3db150ca13ec32236287c7c5b278f9d6ae2ea77a192ff93be9ab51f5da2e25c1&w=360"
         },
         {
-            id: 14,
-            title: 'Noise-Canceling Headphones',
-            description: 'Premium noise-canceling headphones for immersive audio experience.',
-            imageUrl: 'https://imgs.search.brave.com/4PR0dfbON3I1dGWv79SxYq7v6vmySHwwoFdBvefegJw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL0kv/NjFXUTBtQnRCWUwu/anBn',
-
+            "id": 14,
+            "title": "Sculptural Home Decor",
+            "description": "Add a unique focal point to your space with this sculptural home decor piece.",
+            "imageUrl": "https://img.freepik.com/free-photo/minimalist-modern-vases-books_23-2149681093.jpg?t=st=1712754621~exp=1712758221~hmac=b9d8324e5269d1b21f2d463681465da7925f1cc193302e0fde0118b46858cd30&w=996"
         },
         {
-            id: 15,
-            title: 'Smart Home Hub',
-            description: 'Centralized smart home hub for controlling various smart devices.',
-            imageUrl: 'https://imgs.search.brave.com/Z0QOHaTrJE4S1y04IzZM-h09joyEOn8uXLEwpI9hz2s/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWRzLmRhaWx5ZG90/LmNvbS8yMDE5LzA0/L3doYXRfaXNfYV9z/bWFydF9ob21lX2h1/Yl9hcHBsZV90di5q/cGc_YXV0bz1jb21w/cmVzcyZmbT1wanBn',
-
+            "id": 15,
+            "title": "Artisanal Ceramic Vases",
+            "description": "Add an artisanal touch to your decor with these beautiful ceramic vases.",
+            "imageUrl": "https://img.freepik.com/premium-photo/real-antique-chinese-vase-gray-background_1048944-26285617.jpg?w=360"
         }
 
 
